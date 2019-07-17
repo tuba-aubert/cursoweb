@@ -1,0 +1,21 @@
+<div class="jumbotron text-center">
+    <h1>My First Bootstrap Page</h1>
+    <p>Resize this responsive page to see the effect!</p> 
+  </div>
+  
+  <div class="container" >
+    <div class="row" *ngFor="let usuario of usuarios">
+      <div class="col-sm-4">
+        <h3>Nome</h3>
+        <p>{{usuario.usuario}}</p>
+      </div>
+      <div class="col-sm-4">
+        <h3>telefone</h3>
+        <p>{{usuario.telefone}}</p>
+      </div>
+      <div class="col-sm-4">
+        <h3>email</h3> 
+        <p>{{usuario.email}}</p>
+      </div>
+    </div>
+  </div>
